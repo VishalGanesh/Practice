@@ -19,9 +19,9 @@ const Login = () => {
                             <span className="w-full border-t" />
                         </div>
                     </div>
-                    <div className="grid gap-1.5">
+                    <div className="grid gap-1.5" >
                         <Label htmlFor="email">Email</Label>
-                        <Input id="email" type="email" placeholder="abc@gmail.com" />
+                        <Input id="email" type="email" placeholder="abc@gmail.com"/>
                     </div>
                     <div className="grid gap-1.5">
                         <Label htmlFor="password">Password</Label>

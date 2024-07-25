@@ -8,12 +8,12 @@ const Register = () => {
     <div className='h-full w-full flex justify-center items-center '>
       <Card className="w-1/4">
         <CardHeader className="space-y-2">
-          <CardTitle className="text-2xl">Join us</CardTitle>
+          <CardTitle className="text-3xl">Join us</CardTitle>
           <CardDescription>
             Create an account to get started
           </CardDescription>
         </CardHeader>
-        <CardContent className="grid gap-2">
+        <CardContent className="grid gap-4">
           <div className="relative">
             <div className="absolute inset-0 flex items-center">
               <span className="w-full border-t" />
@@ -33,7 +33,7 @@ const Register = () => {
           </div>
           <div className="grid gap-1.5">
             <Label htmlFor="password">Password</Label>
-            <Input id="password" type="password" placeholder="......."/>
+            <Input id="password" type="password" placeholder="......"/>
           </div>
         </CardContent>
         <CardFooter>

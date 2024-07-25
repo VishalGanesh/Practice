@@ -1,12 +1,13 @@
+import { Button } from '@/components/ui/button'
+import { Avatar } from '@radix-ui/react-avatar'
 import React from 'react'
 
 const Home = () => {
     return (
-        // <nav className='navbar'>
-        // <div className="navbar-container"></div>
         <div className='h-full w-full flex justify-center items-center'>        
-        <div className="navbar-logo">BLAZE TO VICTORY</div>            
-        {/* <button className="navbar-button">Click me</button> */}
+        <div className=" flex justify-center items-center absolute left-5 bottom-24 ">BLAZE TO VICTORY!!!</div>            
+        <div className='flex justify-center items-center absolute'>Landing page</div>
+            
         </div>
         
     )

@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { ModeToggle } from '../mode-toggle'
+import { Button } from '../ui/button'
 
 const Navbar = () => {
   const NavLinks = [
@@ -44,6 +45,8 @@ const Navbar = () => {
         }
         {/* <ModeToggle /> */}
       </div>
+        <Button className=" flex-row absolute right-6 align-top items-center rounded-es-3xl ">Join Us</Button>  
+            
     </div>
   )
 }
